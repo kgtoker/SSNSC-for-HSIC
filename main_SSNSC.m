@@ -22,6 +22,7 @@ removeTrainingInstancesInNeighborhood = 0;  % If removeTrainingInstancesInNeighb
 % test samples during classification for fair comparison. 
 % if removeTrainingInstancesInNeighborhood = 0, The spatial neighborhood of the test samples includes training samples. 
 % This effects classification performance in a good way, However, I think that it is not fair.
+% In the paper, we set removeTrainingInstancesInNeighborhood to 1.
 
 %% Pick an hyperspectral image and load the data
 addpath('dataset');
