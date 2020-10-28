@@ -19,6 +19,7 @@ clear all; close all; clc
 dataType = 1; % 1: Salinas 2: PaviaU 3: KSC 4: Indian_pines 5: PaviaC 6: Indian Pine 8 classes 7: Pavia Center subscene
 trainingDataSize = 40; % number of training data
 spatialSize = 9; % window size eg. spatialSize = 9 means 9x9 window
+removeTrainingInstancesInNeighborhood = 0;  % If removeTrainingInstancesInNeighborhood = 1; We remove the training samples that are in spatial neighborhood of the test samples during classification while employing the spectral-spatial methods for fair comparison
 %% Pick an hyperspectral image and load the data
 addpath('dataset');
 [data,gt, sz, no_lines, no_rows, no_bands, imageName] = loadHypData(dataType);
@@ -29,7 +30,7 @@ addpath('dataset');
 load(['dataType' num2str(dataType) 'Indexes' num2str(1) 'trSize' num2str(trainingDataSize) '.mat'])
 
 %% Get spatial data
-[cellSpatialDataCascade] = getSpatialData(dataCascade, sz, trainIndexes, spatialSize);
+[cellSpatialDataCascade] = getSpatialData(dataCascade, sz, trainIndexes, spatialSize, removeTrainingInstancesInNeighborhood);
 %% Determine train and test data
 [trainData, trainLabel, testData, testLabel] = determineTrainAndTestData(trainIndexes, testIndexes, dataCascade, gtVector, sz);
 
