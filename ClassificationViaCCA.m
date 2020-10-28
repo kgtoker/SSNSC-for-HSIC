@@ -14,7 +14,4 @@ for i = 1:size(testData,2)
     end
     [val predLabel(i) ] = max(correlations);
     corrMatrix = [corrMatrix; correlations];
-    if 0 == mod(i,5000)
-        i
-    end
 end
