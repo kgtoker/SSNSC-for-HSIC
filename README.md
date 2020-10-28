@@ -2,7 +2,7 @@
 Spectral-Spatial Nearest Subspace Classifier for Hyperspectral Image Classification
 
 This demo implements the Spectral-Spatial Nearest Subspace Classifier for
-Hyperspectral Image Classification classification [1]
+Hyperspectral Image Classification [1]
 
 More details in paper:
 [1]
