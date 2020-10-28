@@ -22,6 +22,7 @@ spatialSize = 9; % window size eg. spatialSize = 9 means 9x9 window
 removeTrainingInstancesInNeighborhood = 0;  % If removeTrainingInstancesInNeighborhood = 1; We remove the training samples that are in spatial neighborhood of the test samples during classification while employing the spectral-spatial methods for fair comparison
 %% Pick an hyperspectral image and load the data
 addpath('dataset');
+addpath('process data');
 [data,gt, sz, no_lines, no_rows, no_bands, imageName] = loadHypData(dataType);
 %% Get only the labeled data (Get rid of unlabeled instances)
 [allLabeledData, gtVector, dataCascade, no_classes, numberOfInstancesOfEachClass] = getLabeledDataAndTheirGTs(gt,data);
