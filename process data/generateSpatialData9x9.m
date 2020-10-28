@@ -16,7 +16,7 @@ for i = 5:sz(1)+4
             reshape(data(i-4,j+1,:),[1 sz(3)]) 
             reshape(data(i-4,j+2,:),[1 sz(3)])
             reshape(data(i-4,j+3,:),[1 sz(3)])  
-			reshape(data(i-4,j+4,:),[1 sz(3)])    
+	    reshape(data(i-4,j+4,:),[1 sz(3)])    
         
             reshape(data(i-3,j-4,:),[1 sz(3)])           
             reshape(data(i-3,j-3,:),[1 sz(3)]) 
@@ -96,33 +96,9 @@ for i = 5:sz(1)+4
             reshape(data(i+4,j+1,:),[1 sz(3)]) 
             reshape(data(i+4,j+2,:),[1 sz(3)])
             reshape(data(i+4,j+3,:),[1 sz(3)])  
-			reshape(data(i+4,j+4,:),[1 sz(3)])    
+	    reshape(data(i+4,j+4,:),[1 sz(3)])    
  ];    
-        
-        
-%                 cellCorrelation{i,j} = [( reshape(data(i,j,:),[1 sz(3)]) * reshape(data(i-1,j-1,:),[1 sz(3)])' ) ....
-%         / ( norm(reshape(data(i,j,:),[1 sz(3)])) * norm(reshape(data(i-1,j-1,:),[1 sz(3)])) )
-%           ( reshape(data(i,j,:),[1 sz(3)]) * reshape(data(i-1,j,:),[1 sz(3)])')   ....
-%           / (norm(reshape(data(i,j,:),[1 sz(3)])) *  norm(reshape(data(i-1,j,:),[1 sz(3)])))
-%           ( reshape(data(i,j,:),[1 sz(3)]) * reshape(data(i-1,j+1,:),[1 sz(3)])')  .... 
-%           / (norm(reshape(data(i,j,:),[1 sz(3)])) *  norm(reshape(data(i-1,j+1,:),[1 sz(3)])) )
-%           ( reshape(data(i,j,:),[1 sz(3)]) *   reshape(data(i,j-1,:),[1 sz(3)])')  .... 
-%           / (norm(reshape(data(i,j,:),[1 sz(3)])) *  norm(reshape(data(i,j-1,:),[1 sz(3)])))
-%           ( reshape(data(i,j,:),[1 sz(3)]) *   reshape(data(i,j,:),[1 sz(3)])')  .... 
-%           / (norm(reshape(data(i,j,:),[1 sz(3)])) *  norm(reshape(data(i,j,:),[1 sz(3)])))
-%           ( reshape(data(i,j,:),[1 sz(3)]) *   reshape(data(i,j+1,:),[1 sz(3)])')  .... 
-%           / (norm(reshape(data(i,j,:),[1 sz(3)])) *  norm(reshape(data(i,j+1,:),[1 sz(3)])))
-%           ( reshape(data(i,j,:),[1 sz(3)]) *   reshape(data(i+1,j-1,:),[1 sz(3)])')  .... 
-%           / (norm(reshape(data(i,j,:),[1 sz(3)])) *  norm(reshape(data(i+1,j-1,:),[1 sz(3)]))) 
-%           ( reshape(data(i,j,:),[1 sz(3)]) *   reshape(data(i+1,j,:),[1 sz(3)])')  .... 
-%           / (norm(reshape(data(i,j,:),[1 sz(3)])) *  norm(reshape(data(i+1,j,:),[1 sz(3)])))
-%           ( reshape(data(i,j,:),[1 sz(3)]) *   reshape(data(i+1,j+1,:),[1 sz(3)])')  .... 
-%           / (norm(reshape(data(i,j,:),[1 sz(3)])) *  norm(reshape(data(i+1,j+1,:),[1 sz(3)]))) ];    
-%         
-%          [~, sortedIndices] = sort(cellCorrelation{i,j}, 'descend');
-% 
-%          cellSpatialData{i-1,j-1} = cellSpatialData{i-1,j-1}(sortedIndices(1:M),:);
-%       
+           
     end 
 end
 
