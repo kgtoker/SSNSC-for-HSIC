@@ -18,8 +18,10 @@ clear all; close all; clc
 dataType = 6; % 1: Salinas 2: PaviaU 3: KSC 4: Indian_pines 5: PaviaC 6: Indian Pine 8 classes 7: Pavia Center subscene
 trainingDataSize = 40; % number of training data
 spatialSize = 9; % window size eg. spatialSize = 9 means 9x9 window
-removeTrainingInstancesInNeighborhood = 0;  % If removeTrainingInstancesInNeighborhood = 1, We remove the training samples that are in spatial neighborhood of the test samples 
-% during classification for fair comparison. 
+removeTrainingInstancesInNeighborhood = 0;  % If removeTrainingInstancesInNeighborhood = 1, We remove the training samples that are in spatial neighborhood of the 
+% test samples during classification for fair comparison. 
+% if removeTrainingInstancesInNeighborhood = 0, spatial neighborhood of the test samples includees training samples.
+% This effects classification performance in a good way, However, i think that it is not fair.
 
 %% Pick an hyperspectral image and load the data
 addpath('dataset');
