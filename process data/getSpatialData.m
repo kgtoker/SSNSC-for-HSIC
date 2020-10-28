@@ -1,8 +1,9 @@
-function [cellSpatialDataCascade] = getSpatialData(dataCascade, sz, trainIndexes, spatialSize)
+function [cellSpatialDataCascade] = getSpatialData(dataCascade, sz, trainIndexes, spatialSize, removeTrainingInstancesInNeighborhood)
 
     %% Get spatial data
     disp('Generating spatial data to be used')
     % plot(dataCascade(:,1))
+    if (removeTrainingInstancesInNeighborhood == 1)
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%   ZERO PADDING TO TRAINING INSTANCE   %%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -12,7 +13,9 @@ function [cellSpatialDataCascade] = getSpatialData(dataCascade, sz, trainIndexes
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    end
     dataDerivatedNormalized = reshape(dataCascade',[sz(1) sz(2) sz(3)]);
+    
     % plot(reshape(dataDerivatedNormalized(1,1,:),[1 204]))
     
     if 5 == spatialSize
