@@ -14,7 +14,8 @@
 %
 
 clear all; close all; clc
-
+%% Experimental Setup and Parameter setting
+disp('Experimental Setup and Parameter setting')
 dataType = 6; % 1: Salinas 2: PaviaU 3: KSC 4: Indian_pines 5: PaviaC 6: Indian Pine 8 classes 7: Pavia Center subscene
 trainingDataSize = 40; % number of training data
 spatialSize = 9; % window size eg. spatialSize = 9 means 9x9 window
