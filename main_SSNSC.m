@@ -20,8 +20,8 @@ trainingDataSize = 40; % number of training data
 spatialSize = 9; % window size eg. spatialSize = 9 means 9x9 window
 removeTrainingInstancesInNeighborhood = 0;  % If removeTrainingInstancesInNeighborhood = 1, We remove the training samples that are in spatial neighborhood of the 
 % test samples during classification for fair comparison. 
-% if removeTrainingInstancesInNeighborhood = 0, spatial neighborhood of the test samples includees training samples.
-% This effects classification performance in a good way, However, i think that it is not fair.
+% if removeTrainingInstancesInNeighborhood = 0, The spatial neighborhood of the test samples includes training samples. 
+% This effects classification performance in a good way, However, I think that it is not fair.
 
 %% Pick an hyperspectral image and load the data
 addpath('dataset');
