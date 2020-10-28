@@ -46,7 +46,7 @@ predLabelPlot = zeros(sz(1)*sz(2),1);
 predLabelPlot(testIndexes(1,:)) = predLabelAll;
 figure,
 imagesc(reshape(predLabelPlot,[sz(1) sz(2)]))
-accuracyCCA = mean(testLabel == predLabelAll) *100
+accuracyCCA = mean(testLabel == predLabelAll) *100;
 disp(['Accuracy for CCA = ',num2str(accuracyCCA)]);
 
 
