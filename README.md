@@ -11,8 +11,10 @@ The proposed method is simple, parameter-free, easy to implement and has a close
 
 ![image](https://github.com/kgtoker/SSNSC-for-HSIC/assets/57569368/44091ff8-25d2-4bb6-a829-ca0980aa0aa5)
 
-The geometric interpretation of Proposed SSNSC method. 
-Where Xi: Training samples belonging to the ith class, 
+The Figure shows the geometric interpretation of Proposed SSNSC method. 
+
+In Figure, 
+Xi: Training samples belonging to the ith class, 
 Y: Neighbouring pixels around the test pixel y,
 Col(Xi): Column space of Xi,
 Col(Y): Column space of Y
