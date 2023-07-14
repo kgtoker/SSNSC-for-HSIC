@@ -23,7 +23,7 @@ More details in paper:
 [1] Kemal Gürkan Toker & Seniha Esen Yuksel (2022) Spectral-spatial nearest subspace classifier for hyperspectral image classification,
 International Journal of Remote Sensing, 43:6, 2106-2133, DOI: 10.1080/01431161.2022.2055986
 
-https://www.tandfonline.com/doi/ref/10.1080/01431161.2022.2055986?scroll=top&role=tab
+https://www.tandfonline.com/doi/full/10.1080/01431161.2022.2055986?scroll=top&needAccess=true&role=tab
 
 If you find this work interesting in your research, please kindly cite:
 
