@@ -5,6 +5,8 @@ This demo implements the method proposed in paper given below  [1];
 [1] Kemal Gürkan Toker & Seniha Esen Yuksel (2022) Spectral-spatial nearest subspace classifier for hyperspectral image classification,
 International Journal of Remote Sensing, 43:6, 2106-2133, DOI: 10.1080/01431161.2022.2055986
 
+ $j^{th}$ training sample from class $i$
+
 The proposed method analyzes the closeness between two subspaces, where one subspace is the space spanned 
 by the neighborhood of the test sample and the other subspace is the space spanned by the withinclass training samples. 
 The proposed method is simple, parameter-free, easy to implement and has a closed-form solution. Canonical Correlation Analysis
