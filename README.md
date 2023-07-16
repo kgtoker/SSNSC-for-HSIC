@@ -12,6 +12,8 @@ The proposed method is simple, parameter-free, easy to implement and has a close
 
 Let, 
 
+$\{\rm{ }}\{C\}$  : number of classes
+
 ${x_{ij}}$ :  $j^{th}$ training sample from class $i$ 
 
 $X_i$      : Training samples belonging to the $i^{th}$ class
@@ -25,12 +27,13 @@ Col($X_i$): Column space of $X_i$
 Col($Y$): Column space of $Y$
 
 
+
 The Figure shows the geometric interpretation of the Proposed SSNSC method. 
 ![image](https://github.com/kgtoker/SSNSC-for-HSIC/assets/57569368/fd2b174b-eb60-4738-81cf-9336ef19789f)
 
 
 In SSNSC, the maximum correlation ($\rho_i$) between the space spanned by the neighborhood of the test sample Col($Y$)  and space spanned by the within-class training samples
-$Col(\mathbf{X_i})$ \quad ${\forall _i}  \in {\rm{ }}\{ 1,2, \ldots ,C\}$ is computed separately. Then, the test sample is labelled as the class with the maximum correlation.
+$Col(\mathbf{X_i})$  ${\forall _i}  \in {\rm{ }}\{ 1,2, ... ,C\}$ is computed separately. Then, the test sample is labelled as the class with the maximum correlation.
 	(The red dot indicates the origin. The two origins are one point and the only one shared by the two planes.
 
 More details in paper:
