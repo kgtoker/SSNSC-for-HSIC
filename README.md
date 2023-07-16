@@ -6,8 +6,8 @@ This demo implements the method proposed in the paper given below  [1];
 International Journal of Remote Sensing, 43:6, 2106-2133, DOI: 10.1080/01431161.2022.2055986
 
 Spectral-spatial nearest subspace classifier (SSNSC) method is a kind of representation-based method. 
-The SSNSC method is proposed, inspired by the geometric interpretation of the nearest subspace classifier method. Nearest Subspace Classifier
-(NSC) is a simple classifier that works on the assumption that samples from the same class approximately lie on the same subspace. 
+The SSNSC method is proposed, inspired by the geometric interpretation of the Nearest Subspace Classifier (NSC) method. NSC is a simple classifier
+that works on the assumption that samples from the same class approximately lie on the same subspace. 
 Based on this assumption, the NSC method analyzes the closeness between the test sample and the space spanned by the within-class training samples. 
 Then, the label of the test sample is assigned to the closest class. However, NSC only considers spectral information and neglects spatial information.
 In addition to the assumption in the NSC method, we add another assumption that spatially adjacent pixels quite likely belong to the same class.
