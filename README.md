@@ -5,8 +5,18 @@ This demo implements the method proposed in paper given below  [1];
 [1] Kemal Gürkan Toker & Seniha Esen Yuksel (2022) Spectral-spatial nearest subspace classifier for hyperspectral image classification,
 International Journal of Remote Sensing, 43:6, 2106-2133, DOI: 10.1080/01431161.2022.2055986
 
-${x_{ij}}$ :  $j^{th}$ training sample from class $i$
-$X_i$      :
+${x_{ij}}$ :  $j^{th}$ training sample from class $i$ 
+
+$X_i$      : Training samples belonging to the $i^{th}$ class
+
+$y$ : Test Sample
+
+$Y$ : Neighbouring pixels around the test pixel $y$
+
+Col($X_i$): Column space of $X_i$ 
+
+Col($Y$): Column space of $Y$
+
 
 The proposed method analyzes the closeness between two subspaces, where one subspace is the space spanned 
 by the neighborhood of the test sample and the other subspace is the space spanned by the withinclass training samples. 
