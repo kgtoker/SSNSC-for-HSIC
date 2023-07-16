@@ -8,7 +8,11 @@ International Journal of Remote Sensing, 43:6, 2106-2133, DOI: 10.1080/01431161.
 The proposed method analyzes the closeness between two subspaces, where one subspace is the space spanned 
 by the neighborhood of the test sample and the other subspace is the space spanned by the withinclass training samples. 
 The proposed method is simple, parameter-free, easy to implement and has a closed-form solution. Canonical Correlation Analysis
-(CCA) is used to measure the closeness between these two subspaces. The Figure shows the geometric interpretation of Proposed SSNSC method. 
+(CCA) is used to measure the closeness between these two subspaces.  The maximum correlation $\rho_i$ between the maximally correlated 
+vector pairs located within $Col(\mathbf{X_i})$ and $Col(\mathbf{Y})$
+ is computed for each class using canonical correlation analysis (CCA)
+
+The Figure shows the geometric interpretation of Proposed SSNSC method. 
 
 ![image](https://github.com/kgtoker/SSNSC-for-HSIC/assets/57569368/44091ff8-25d2-4bb6-a829-ca0980aa0aa5)
 
