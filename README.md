@@ -6,6 +6,7 @@ This demo implements the method proposed in paper given below  [1];
 International Journal of Remote Sensing, 43:6, 2106-2133, DOI: 10.1080/01431161.2022.2055986
 
 ${x_{ij}}$ :  $j^{th}$ training sample from class $i$
+$X_i$      :
 
 The proposed method analyzes the closeness between two subspaces, where one subspace is the space spanned 
 by the neighborhood of the test sample and the other subspace is the space spanned by the withinclass training samples. 
