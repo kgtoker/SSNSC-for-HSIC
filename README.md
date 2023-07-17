@@ -14,7 +14,7 @@ In addition to the assumption in the NSC method, we add another assumption that 
 By combining these two assumptions, we conclude that spatially adjacent pixels must approximately lie on the same subspace as well.
 Based on these assumptions, we propose the spectral-spatial nearest subspace classification (SSNSC) approach as a generic classification framework
 that performs classification by analyzing  the closeness between the subspace spanned by the samples used for spatial information and the subspace
-spanned by the within-class training samples. (CCA) is used to measure the closeness between these two subspaces.  
+spanned by the within-class training samples. Canonical Correlation Analysis (CCA) is used to measure the closeness between these two subspaces.  
 
 Let, 
 
