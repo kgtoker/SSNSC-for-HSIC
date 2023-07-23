@@ -16,7 +16,7 @@ Based on these assumptions, we propose the spectral-spatial nearest subspace cla
 that performs classification by analyzing  the closeness between the subspace spanned by the samples used for spatial information and the subspace
 spanned by the within-class training samples. Canonical Correlation Analysis (CCA) is used to measure the closeness between these two subspaces.  
 
-Let, 
+Let
 
 $\{\rm{ }}\{C\}$  : number of classes
 
@@ -46,6 +46,10 @@ More details in paper:
 
 https://www.tandfonline.com/doi/full/10.1080/01431161.2022.2055986?scroll=top&needAccess=true&role=tab
 
+and in thesis,
+
+https://www.researchgate.net/publication/372344956_SPECTRAL-SPATIAL_NEAREST_SUBSPACE_CLASSIFIERS_FOR_HYPERSPECTRAL_IMAGES
+
 If you find this work interesting in your research, please kindly cite:
 
 @article{doi:10.1080/01431161.2022.2055986,
@@ -58,6 +62,15 @@ pages = {2106-2133},
 year  = {2022},
 publisher = {Taylor & Francis},
 doi = {10.1080/01431161.2022.2055986}}
+
+@phdthesis{phdthesis,
+author = {Toker, Kemal},
+year = {2023},
+month = {02},
+pages = {},
+title = {SPECTRAL-SPATIAL NEAREST SUBSPACE CLASSIFIERS FOR HYPERSPECTRAL IMAGES}
+}
+
 
 If you would like to use other datasets, you can download them from 
 http://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes
