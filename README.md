@@ -50,6 +50,8 @@ and in thesis,
 
 https://www.researchgate.net/publication/372344956_SPECTRAL-SPATIAL_NEAREST_SUBSPACE_CLASSIFIERS_FOR_HYPERSPECTRAL_IMAGES
 
+You can find the article [1] in English at the end of this thesis. 
+
 If you find this work interesting in your research, please kindly cite:
 
 @article{doi:10.1080/01431161.2022.2055986,
