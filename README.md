@@ -42,11 +42,11 @@ In SSNSC, the maximum correlation ($\rho_i$) between the space spanned by the ne
 $Col(\mathbf{X_i})$  ${\forall _i}  \in {\rm{ }}\{ 1,2, ... ,C\}$ is computed separately. Then, the test sample is labelled as the class with the maximum correlation.
 	(The red dot indicates the origin. The two origins are one point and the only one shared by the two planes.
 
-More details in paper:
+More details in the paper:
 
 https://www.tandfonline.com/doi/full/10.1080/01431161.2022.2055986?scroll=top&needAccess=true&role=tab
 
-and in thesis,
+and in the thesis,
 
 https://www.researchgate.net/publication/372344956_SPECTRAL-SPATIAL_NEAREST_SUBSPACE_CLASSIFIERS_FOR_HYPERSPECTRAL_IMAGES
 
