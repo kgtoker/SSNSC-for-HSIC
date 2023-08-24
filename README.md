@@ -73,7 +73,6 @@ pages = {},
 title = {SPECTRAL-SPATIAL NEAREST SUBSPACE CLASSIFIERS FOR HYPERSPECTRAL IMAGES}
 }
 
-
 If you would like to use other datasets, you can download them from 
 http://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes
 
