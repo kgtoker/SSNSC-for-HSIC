@@ -50,7 +50,7 @@ https://www.researchgate.net/publication/372344956_SPECTRAL-SPATIAL_NEAREST_SUBS
 
 You can find the article [1] in English at the end of this thesis. 
 
-If you find this work interesting in your research, please kindly cite:
+If you find these works interesting in your research, please kindly cite:
 
 @article{doi:10.1080/01431161.2022.2055986,
 author = {Kemal Gürkan Toker and Seniha Esen Yuksel},
