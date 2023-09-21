@@ -1,8 +1,8 @@
 # SSNSC-for-HSIC
-
+.
 This demo implements the method proposed in the paper given below  [1];
 
-[1] Kemal Gürkan Toker & Seniha Esen Yuksel (2022) Spectral-spatial nearest subspace classifier for hyperspectral image classification,
+[1] Kemal Gürkan Toker & Seniha Esen Yuksel (2022) Spectral-sp atial nearest subspace classifier for hyperspectral image classification,
 International Journal of Remote Sensing, 43:6, 2106-2133, DOI: 10.1080/01431161.2022.2055986
 
 Spectral-Spatial Nearest Subspace Classifier (SSNSC) method is a kind of representation-based method. 
@@ -34,6 +34,7 @@ Col($Y$): Column space of $Y$
 
 
 The Figure shows the geometric interpretation of the Proposed SSNSC method. 
+
 ![image](https://github.com/kgtoker/SSNSC-for-HSIC/assets/57569368/fd2b174b-eb60-4738-81cf-9336ef19789f)
 
 
