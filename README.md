@@ -1,5 +1,5 @@
 # SSNSC-for-HSIC
-.
+
 This demo implements the method proposed in the paper given below  [1];
 
 [1] Kemal Gürkan Toker & Seniha Esen Yuksel (2022) Spectral-sp atial nearest subspace classifier for hyperspectral image classification,
