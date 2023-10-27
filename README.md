@@ -33,7 +33,7 @@ Col($X_i$): Column space of $X_i$
 Col($Y$): Column space of $Y$
 
 
-The Figure shows the geometric interpretation of the Proposed SSNSC method. 
+The Figure given below shows the geometric interpretation of the Proposed SSNSC method. 
 
 ![image](https://github.com/kgtoker/SSNSC-for-HSIC/assets/57569368/fd2b174b-eb60-4738-81cf-9336ef19789f)
 
