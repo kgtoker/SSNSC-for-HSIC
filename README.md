@@ -15,6 +15,7 @@ By combining these two assumptions, we conclude that spatially adjacent pixels m
 Based on these assumptions, we propose the spectral-spatial nearest subspace classification (SSNSC) approach as a generic classification framework
 that performs classification by analyzing  the closeness between the subspace spanned by the samples used for spatial information and the subspace
 spanned by the within-class training samples. Canonical Correlation Analysis (CCA) is used to measure the closeness between these two subspaces.  
+This approach performs well with LIMITED training data and BALANCED training samples. 
 
 Let
 
