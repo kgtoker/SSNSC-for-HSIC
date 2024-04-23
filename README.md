@@ -68,7 +68,7 @@ author = {Toker, Kemal},
 year = {2023},
 month = {02},
 pages = {},
-title = {Nearest Subspace Classifiers for Hyperspectral Images}
+title = {Spectral-Spatial Nearest Subspace Classifiers for Hyperspectral Images}
 }
 
 If you would like to use other datasets, you can download them from 
