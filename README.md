@@ -63,12 +63,14 @@ year  = {2022},
 publisher = {Taylor & Francis},
 doi = {10.1080/01431161.2022.2055986}}
 
-@phdthesis{phdthesisKGT,
-author = {Toker, Kemal},
-year = {2023},
-month = {02},
-pages = {},
-title = {Spectral-Spatial Nearest Subspace Classifiers for Hyperspectral Images}
+@phdthesis{phdthesisKGT, 
+author = {Toker, Kemal}, 
+year = {2023}, 
+month = {02}, 
+pages = {}, 
+url = {}, 
+title = {Spectral-Spatial Nearest Subspace Classifiers for Hyperspectral Images},
+school={Hacettepe University},
 }
 
 If you would like to use other datasets, you can download them from 
