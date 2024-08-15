@@ -42,6 +42,8 @@ The Figure given below shows the geometric interpretation of the Proposed SSNSC 
 In SSNSC, the maximum correlation ($\rho_i$) between the space spanned by the neighborhood of the test sample Col($Y$)  and space spanned by the within-class training samples
 $Col(\mathbf{X_i})$  ${\forall _i}  \in {\rm{ }}\{ 1,2, ... ,C\}$ is computed separately. Then, the test sample is labelled as the class with the maximum correlation. (The red dot indicates the origin. The two origins are one point and the only one shared by the two planes. This approach performs well with LIMITED training data and BALANCED training samples. 
 
+Some issues may affect the method's performance. One of these is that the method is linear and uses spectral similarity between training and test samples during classification, which can negatively affect the performance in datasets with spectrally similar classes. Another area for improvement is that an imbalanced distribution of training data size for different classes can result in bias when classifying instances. The classes with a larger number of training samples, meaning subspaces with larger dimensions, are more likely to be selected even if it is not the correct classification. Furthermore, although our method shows strong performance with limited training data, it may not outperform deep learning approaches when extensive training data is available.
+
 More details in the paper:
 
 https://www.tandfonline.com/doi/full/10.1080/01431161.2022.2055986?scroll=top&needAccess=true&role=tab
